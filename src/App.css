@@ -1,0 +1,73 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+#my_photo {
+  padding: 10px;
+  height: auto;
+  margin: 36px 0 0 0;
+  padding: 0%;
+  max-width: 100%;
+}
+
+.wrapper {
+  color: white;
+  font-family:"Inter";
+  background-color:rgb(36, 34, 34);
+  width: 1000px;
+  height: 1667px;
+  box-shadow: 1px 0px 13px 7px rgba(80, 75, 75, 0.25);
+}
+
+.headers {
+  width: 320px;
+  height: 39px;
+  font-style: normal;
+  font-weight: 600px;
+  font-size: 40px;
+  line-height: 39px;
+  border-bottom: 5px solid white;
+  padding-bottom: 28px;
+  margin-bottom: 31px;
+}
+
+.contact {
+  width: 334px;
+  height: 429px;
+  padding: 5px 11px 0px 40px;
+}
+
+.contact_header {
+  width: 97px;
+  height: 29px;
+  font-size: 24px;
+  line-height: 44px;
+  margin-top: 45px;
+}
+
+.contact_information {
+  width: 141px;
+  height: 19px;
+  font-style: normal;
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.Work_experience {
+  width: 706px;
+  height: 320px;
+  padding: 49px 54px 53px calc(0.5rem + 2.5vmin);
+  text-align: justify;
+}
+
+.work-text {
+  width: 706px;
+  height: 141px;
+  font-style: normal;
+  font-weight: 600px;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: justify;
+}
