@@ -5,7 +5,9 @@ import {Contact_Info} from './components/Contact_Info';
 import {Work_Experience} from './components/Work_Experience';
 import My_place_of_job from './components/My_place_of_job';
 import {Counter} from './components/Counter';
-import photo from './components/0000.jpg'
+import photo from './components/0000.jpg';
+import My_projects from './components/My_projects';
+import MyComponent from './components/My_projects';
 
 
 const workItems=[{
@@ -17,10 +19,7 @@ const workItems=[{
 }]
 
 const imgLink=photo;
-
-/*function AddItem(){
-  setItems([...items, {id:Math.round(), title, description, name, link}])
-}*/
+const linkgit='https://api.github.com/users/iracopter/repos';
 
 
 function App() {
@@ -53,14 +52,18 @@ function App() {
 
   return (
     <div className='wrapper'>
-        <My_Photo path={imgLink}/>
-        <Contact_Info/>
-        <div className='Work_experience'>
-        <h2 className="headers">Work experience</h2>
-        <AddForm setItems={setItems}/>
-        <My_place_of_job items={items}/>
+        <div className='grid1'>
+          <My_Photo path={imgLink}/>
+          <Contact_Info/>
+          <div className='Work_experience'>
+            <h2 className="headers">Work experience</h2>
+            <AddForm setItems={setItems}/>
+            <My_place_of_job items={items}/>
+          </div>
         </div>
-        <Counter/>
+        <div className='grid2'>
+            <My_projects/>
+        </div>
     </div>
   );
 }
